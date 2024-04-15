@@ -139,7 +139,7 @@ git:
         url: https://github.com/hibbitts-design/grav-theme-quark-open-publishing
         path: user/themes/quark-open-publishing
         branch: master
-    simple-site:
+    minimal:
         url: https://github.com/Crabston/grav-theme-minimal
         path: user/themes/minimal
         branch: main

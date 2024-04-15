@@ -1,0 +1,3 @@
+[submodule "user/themes/minimal"]
+	path = user/themes/minimal
+	url = https://github.com/Crabston/grav-theme-minimal.git

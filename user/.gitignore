@@ -8,6 +8,7 @@ plugins/*
 themes/*
 !themes/.*
 !themes/local
+!themes/minimal
 
 config/security.yaml
 
