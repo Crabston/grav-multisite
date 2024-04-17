@@ -2,10 +2,10 @@ state: enabled
 email: admin@crabston.dev
 fullname: Administrator
 title: Administrator
+hashed_password: $2y$10$nTm2DQjPWpyW9Qz7pIyQhOXbNVV9HZ2jqU83WwRmNuZmmMsJ2gP.u
 access:
   admin:
     login: true
     super: true
   site:
     login: true
-hashed_password: $2y$10$nTm2DQjPWpyW9Qz7pIyQhOXbNVV9HZ2jqU83WwRmNuZmmMsJ2gP.u

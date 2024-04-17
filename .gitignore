@@ -21,6 +21,7 @@ images/*
 # Environments
 .env
 .gravenv
+.grav.env
 
 # OS Generated
 .DS_Store*

@@ -15,6 +15,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-breadcrumbs
         path: user/plugins/breadcrumbs
         branch: master
+    dotenv:
+        url: https://github.com/getgrav/grav-plugin-dotenv.git
+        path: user/plugins/dotenv
+        branch: master
     email:
         url: https://github.com/getgrav/grav-plugin-email
         path: user/plugins/email
@@ -55,6 +59,10 @@ git:
         url: https://github.com/absalomedia/grav-plugin-grava11y
         path: user/plugins/grava11y
         branch: master
+    healthcheck:
+        url: https://github.com/Crabston/grav-plugin-healthcheck.git
+        path: user/plugins/healthcheck
+        branch: main
     image-captions:
         url: https://github.com/trilbymedia/grav-plugin-image-captions
         path: user/plugins/image-captions
@@ -71,6 +79,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-markdown-notices
         path: user/plugins/markdown-notices
         branch: master
+    minimal:
+        url: https://github.com/Crabston/grav-theme-minimal
+        path: user/themes/minimal
+        branch: main
     page-inject:
         url: https://github.com/getgrav/grav-plugin-page-inject
         path: user/plugins/page-inject
@@ -124,9 +136,9 @@ git:
         path: user/plugins/shortcode-ui
         branch: master
     sitemap:
-        url: https://github.com/getgrav/grav-plugin-sitemap
+        url: https://github.com/Crabston/grav-plugin-sitemap
         path: user/plugins/sitemap
-        branch: master
+        branch: develop
     youtube:
         url: https://github.com/getgrav/grav-plugin-youtube
         path: user/plugins/youtube
@@ -139,7 +151,3 @@ git:
         url: https://github.com/hibbitts-design/grav-theme-quark-open-publishing
         path: user/themes/quark-open-publishing
         branch: master
-    minimal:
-        url: https://github.com/Crabston/grav-theme-minimal
-        path: user/themes/minimal
-        branch: main

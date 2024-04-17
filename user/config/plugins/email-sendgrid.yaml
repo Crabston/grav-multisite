@@ -1,4 +1,3 @@
 enabled: true
 transport: api
-# TODO: add API key to doppler
 api_key: "SENDGRID_API_KEY"

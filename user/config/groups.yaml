@@ -1,4 +1,4 @@
-g_default:
++default:
   access:
     site:
       login: true
@@ -8,16 +8,36 @@ g_default:
         read: true
         list: true
   enabled: true
-  readableName: 'Default Group'
-  description: 'Kann sich in Admin Anmelden'
-g_statistics:
+  readableName: Default
+  description: 'Standard Benutzergruppe für alle Benutzer'
+statistics:
   access:
     admin:
       statistics: true
   enabled: true
   readableName: 'Site Analyzer'
   description: 'Kann Statistiken der Seite einsehen'
-g_maintainer:
+editor:
+  access:
+    admin:
+      cache: true
+      pages:
+        read: true
+        update: true
+        list: true
+  readableName: 'Content Editor'
+  description: 'Kann Seiten bearbeiten'
+  enabled: true
+pages:
+  access:
+    admin:
+      cache: true
+      pages: true
+      flex-objects: true
+  readableName: 'Site Editor'
+  description: 'Kann Seiten verwalten'
+  enabled: true
+maintainer:
   access:
     admin:
       cache: true
@@ -27,12 +47,33 @@ g_maintainer:
   enabled: true
   readableName: 'Site Maintainer'
   description: 'Kann die Seite warten/ in Stand halten'
-g_editor:
+settings:
   access:
     admin:
-      cache: true
-      pages: true
-      flex-objects: true
-  readableName: 'Site Editor'
-  description: 'Kann Seiten bearbeiten'
+      configuration:
+        system: true
+        site: true
+  readableName: Settings
   enabled: true
+  description: 'Kann Seiten & Systemeinstellungen verwalten'
+theme:
+  access:
+    admin:
+      themes: true
+  readableName: 'Theme Admin'
+  enabled: true
+  description: 'Kann Themes verwalten'
+plugin:
+  access:
+    admin:
+      plugins: true
+  readableName: 'Plugins Admin'
+  enabled: true
+  description: 'Kann Plugins verwalten'
+accounts:
+  access:
+    admin:
+      users: true
+  readableName: 'Account Manager'
+  enabled: true
+  description: 'Kann Benutzerkonten verwalten'
