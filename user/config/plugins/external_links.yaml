@@ -1,11 +1,13 @@
 enabled: true
-built_in_css: false
+built_in_css: true
 weight: 0
 exclude:
   classes:
     - exclude
+  domains: null
 links:
   www: false
+  redirects: true
   schemes:
     - http
     - https

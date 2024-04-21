@@ -1,21 +1,26 @@
-+default:
+website:
   access:
     site:
       login: true
+  enabled: true
+  readableName: 'Website Login'
+  description: 'Kann sich an der Website anmelden'
+admin:
+  access:
     admin:
       login: true
       users:
         read: true
         list: true
   enabled: true
-  readableName: Default
-  description: 'Standard Benutzergruppe für alle Benutzer'
+  readableName: 'Admin Login'
+  description: 'Kann sich am Admin Panel anmelden'
 statistics:
   access:
     admin:
       statistics: true
   enabled: true
-  readableName: 'Site Analyzer'
+  readableName: 'Site Statistics'
   description: 'Kann Statistiken der Seite einsehen'
 editor:
   access:
@@ -26,7 +31,7 @@ editor:
         update: true
         list: true
   readableName: 'Content Editor'
-  description: 'Kann Seiten bearbeiten'
+  description: 'Kann bestehende Seiten bearbeiten'
   enabled: true
 pages:
   access:
@@ -34,7 +39,9 @@ pages:
       cache: true
       pages: true
       flex-objects: true
-  readableName: 'Site Editor'
+      configuration:
+        site: true
+  readableName: 'Pages Manager'
   description: 'Kann Seiten verwalten'
   enabled: true
 maintainer:
@@ -44,30 +51,32 @@ maintainer:
       maintenance: true
       tools: true
       flex-objects: true
+      configuration:
+        site: true
   enabled: true
   readableName: 'Site Maintainer'
-  description: 'Kann die Seite warten/ in Stand halten'
-settings:
+  description: 'Kann die Seite warten'
+manager:
   access:
     admin:
       configuration:
         system: true
         site: true
-  readableName: Settings
+  readableName: 'Site Manager'
   enabled: true
-  description: 'Kann Seiten & Systemeinstellungen verwalten'
-theme:
+  description: 'Kann Seiten- & Systemeinstellungen verwalten'
+themes:
   access:
     admin:
       themes: true
-  readableName: 'Theme Admin'
+  readableName: 'Theme Manager'
   enabled: true
   description: 'Kann Themes verwalten'
-plugin:
+plugins:
   access:
     admin:
       plugins: true
-  readableName: 'Plugins Admin'
+  readableName: 'Plugin Manager'
   enabled: true
   description: 'Kann Plugins verwalten'
 accounts:

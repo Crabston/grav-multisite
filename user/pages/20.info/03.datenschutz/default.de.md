@@ -8,6 +8,8 @@ sitemap:
 date: 13.10.2023
 ---
 
+# Datenschutz
+
 ## Urheberrechte
 
 Der gesamte Inhalt auf dieser Website ist urheberrechtlich geschützt (alle Rechte vorbehalten). Ohne ausdrückliche Zustimmung des Vorstands oder der entsprechenden Rechteinhaber ist daher jede Weiterveröffentlichung (in elektronischer, schriftlicher oder sonstiger Form) oder anderweitige Nutzung der Inhalte auf dieser Website untersagt, insbesondere aber zu öffentlichen oder kommerziellen Zwecken.

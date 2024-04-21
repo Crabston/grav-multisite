@@ -11,10 +11,6 @@ git:
         url: https://github.com/getgrav/grav-plugin-auto-date
         path: user/plugins/auto-date
         branch: master
-    breadcrumbs:
-        url: https://github.com/getgrav/grav-plugin-breadcrumbs
-        path: user/plugins/breadcrumbs
-        branch: master
     dotenv:
         url: https://github.com/getgrav/grav-plugin-dotenv.git
         path: user/plugins/dotenv
@@ -38,7 +34,7 @@ git:
     featherlight:
         url: https://github.com/getgrav/grav-plugin-featherlight
         path: user/plugins/featherlight
-        branch: master
+        branch: develop
     feed:
         url: https://github.com/getgrav/grav-plugin-feed
         path: user/plugins/feed
@@ -50,14 +46,6 @@ git:
     form:
         url: https://github.com/getgrav/grav-plugin-form
         path: user/plugins/form
-        branch: master
-    git-sync:
-        url: https://github.com/trilbymedia/grav-plugin-git-sync
-        path: user/plugins/git-sync
-        branch: master
-    grava11y:
-        url: https://github.com/absalomedia/grav-plugin-grava11y
-        path: user/plugins/grava11y
         branch: master
     healthcheck:
         url: https://github.com/Crabston/grav-plugin-healthcheck.git
@@ -91,14 +79,6 @@ git:
         url: https://github.com/getgrav/grav-plugin-pagination
         path: user/plugins/pagination
         branch: master
-    presentation:
-        url: https://github.com/OleVik/grav-plugin-presentation
-        path: user/plugins/presentation
-        branch: master
-    presentation-deckset:
-        url: https://github.com/OleVik/grav-plugin-presentation-deckset
-        path: user/plugins/presentation-deckset
-        branch: master
     prism-highlight:
         url: https://github.com/trilbymedia/grav-plugin-prism-highlight
         path: user/plugins/prism-highlight
@@ -107,17 +87,17 @@ git:
         url: https://github.com/getgrav/grav-plugin-problems
         path: user/plugins/problems
         branch: master
-    taxonomylist:
-        url: https://github.com/getgrav/grav-plugin-taxonomylist
-        path: user/plugins/taxonomylist
+    quark:
+        url: https://github.com/getgrav/grav-theme-quark
+        path: user/themes/quark
         branch: master
-    twigfeeds:
-        url: https://github.com/OleVik/grav-plugin-twigfeeds
-        path: user/plugins/twigfeeds
+    quark-open-publishing:
+        url: https://github.com/hibbitts-design/grav-theme-quark-open-publishing
+        path: user/themes/quark-open-publishing
         branch: master
-    twigpcre:
-        url: https://github.com/kesslernetworks/grav-plugin-twigpcre
-        path: user/plugins/twigpcre
+    quick-tray-links:
+        url: https://github.com/trilbymedia/grav-plugin-quick-tray-links
+        path: user/plugins/quick-tray-links
         branch: master
     shortcode-core:
         url: https://github.com/getgrav/grav-plugin-shortcode-core
@@ -139,15 +119,19 @@ git:
         url: https://github.com/Crabston/grav-plugin-sitemap
         path: user/plugins/sitemap
         branch: develop
+    taxonomylist:
+        url: https://github.com/getgrav/grav-plugin-taxonomylist
+        path: user/plugins/taxonomylist
+        branch: master
+    twigfeeds:
+        url: https://github.com/OleVik/grav-plugin-twigfeeds
+        path: user/plugins/twigfeeds
+        branch: master
+    twigpcre:
+        url: https://github.com/kesslernetworks/grav-plugin-twigpcre
+        path: user/plugins/twigpcre
+        branch: master
     youtube:
         url: https://github.com/getgrav/grav-plugin-youtube
         path: user/plugins/youtube
-        branch: master
-    quark:
-        url: https://github.com/getgrav/grav-theme-quark
-        path: user/themes/quark
-        branch: master
-    quark-open-publishing:
-        url: https://github.com/hibbitts-design/grav-theme-quark-open-publishing
-        path: user/themes/quark-open-publishing
         branch: master

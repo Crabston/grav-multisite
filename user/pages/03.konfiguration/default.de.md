@@ -4,15 +4,15 @@ slug: konfiguration
 language: de
 sitemap:
   changefreq: monthly
-  priority: 0.7
+  priority: 0.8
 date: 20.10.2023
 published: false
 ---
 
-## Konfiguration
+# Konfiguration
 !!! Mit dieser Anleitung kannst du dein Grav System konfigurieren.
 
-### Inhalt
+## Inhalt
 
 - [Inhalt](#inhalt)
 - [Accounts](#accounts)
@@ -22,26 +22,26 @@ published: false
 - [Theme Einstellungen](#theme-einstellungen)
 - [Doppler](#doppler)
 
-### Accounts
+## Accounts
 
-### Seiteneinstellungen
+## Seiteneinstellungen
 
-#### `user/config/system.yaml`
+### `user/config/system.yaml`
 - `languages.supported`: Verändere die unterstützten Sprachen
 - `home.alias`: Alias zur Hauptseite
 
-#### `user/config/site.yaml`
+### `user/config/site.yaml`
 - `title`: Seitentitel
 - `default_lang`: Standardsprache
 - `author.*`: Angaben zum Standardautor
 - `metadata.*`: Metadaten der Seite
 - `blog.route`: Pfad zu den Blog Seiten
 
-### Theme
+## Theme
 Einstellungen
 
-#### Header
-#### Navigation
-#### Footer
+### Header
+### Navigation
+### Footer
 
-### Doppler
+## Doppler

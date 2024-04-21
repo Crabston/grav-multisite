@@ -35,7 +35,8 @@ popularity:
   enabled: true
   ignore:
     - '/test*'
-    - /modular
+    - '/modular'
+    - '/health'
   history:
     daily: '30'
     monthly: '12'
@@ -47,11 +48,11 @@ google_fonts: false
 frontend_pages_target: _blank
 add_modals:
   -
-    label: 'Add Blog Item'
+    label: 'Neuer Blog Beitrag'
     blueprint: admin/pages/new_blog_item
     show_in: bar
   -
-    label: 'Add Standard Page'
+    label: 'Neue Standard Seite'
     blueprint: admin/pages/new_standard_page
     show_in: bar
 pagemedia:

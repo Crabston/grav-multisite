@@ -11,6 +11,8 @@ backup/*
 !backup/.*
 cache/*
 !cache/.*
+tmp/*
+!tmp/.*
 assets/*
 !assets/.*
 logs/*
@@ -34,6 +36,7 @@ Thumbs.db
 .idea/*
 !.idea/runConfigurations/*
 !.idea/codeStyles/*
+!.idea/scopes/*
 !.idea/watcherTasks.xml
 
 # testing stuff

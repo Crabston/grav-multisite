@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Grav Content" pattern="(file[grav]:user//*||file[grav]:scripts//*)&amp;&amp;!file[grav]:user/plugins//*&amp;&amp;!file[grav]:user/themes//*||file[grav]:user/themes/local//*||file:doppler.yaml||file:README.md" />
+</component>

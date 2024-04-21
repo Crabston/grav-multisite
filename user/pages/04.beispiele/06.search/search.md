@@ -1,6 +1,6 @@
 ---
 title: Search
-published: true
+published: false
 template: search
 icon: search
 ---

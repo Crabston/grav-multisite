@@ -12,6 +12,10 @@ content:
     taxonomy:
         filter: [view1,view2]
 child_type: section
+sitemap:
+  changefreq: never
+  priority: 0.2
+date: 3.4.2024
 ---
 
 [div class="sections-page-title"]

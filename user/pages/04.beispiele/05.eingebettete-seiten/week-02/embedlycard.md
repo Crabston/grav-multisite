@@ -6,4 +6,8 @@ embedly_card_url: 'https://uxplanet.org/the-evolution-of-ux-process-methodology-
 published: true
 visible: false
 cache_enable: false
+sitemap:
+  changefreq: never
+  priority: 0.2
+date: 3.4.2024
 ---
