@@ -1,7 +1,15 @@
+# v1.7.46
+## mm/dd/2024
+
+1. [](#improved) 
+   * Better handling of external protocols in `Utils::url()` such as `mailto:`, `tel:`, etc.
+1. [](#bugfix)
+   * Fixes for multi-lang taxonomy when reinitializing the languages (e.g. LangSwitcher plugin) 
+
 # v1.7.45
 ## 03/18/2024
 
-1. [](#news)
+1. [](#new)
    * Added new Image trait for `decoding` attribute [#3796](https://github.com/getgrav/grav/pull/3796)
 1. [](#bugfix)
    * Fixed some multibyte issues in Inflector class [#732](https://github.com/getgrav/grav/issues/732)
@@ -117,6 +125,7 @@
 1. [](#improved)
     * Removed outdated `xcache` setting [#3615](https://github.com/getgrav/grav/pull/3615)
     * Updated `robots.txt` [#3625](https://github.com/getgrav/grav/pull/3625)
+    * Handle the situation when GRAV_ROOT or GRAV_WEBROOT are `/` [#3625](https://github.com/getgrav/grav/pull/3667)
 1. [](#bugfix)
     * Fixed `force_ssl` redirect in case of undefined hostname [#3702](https://github.com/getgrav/grav/pull/3702)
     * Fixed an issue with duplicate identical page paths
