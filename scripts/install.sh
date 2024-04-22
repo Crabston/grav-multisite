@@ -4,6 +4,7 @@
 bin/grav install
 
 # Configure Doppler via doppler.yaml config
+cp user/doppler.yaml doppler.yaml
 doppler setup --no-interactive
 
 # Parse secrets into the .grav.env file
