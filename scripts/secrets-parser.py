@@ -20,9 +20,8 @@ for item in data:
     if data[item]['note'] == '':
         continue
 
-    envs.append(f'{gravPath}={secret}')
+    envs.append(f'{gravPath}={secret}\n')
 
 # Write the parsed data to a file
 with open(ENV_FILE, 'w') as f:
     f.writelines(envs)
-    f.write('\n')
