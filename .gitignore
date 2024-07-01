@@ -27,6 +27,20 @@ user
 .grav.env
 doppler.yaml
 
+# Multisite Specific
+cache/www.crabston.ch/*
+!cache/www.crabston.ch/.*
+cache/tutorials.crabston.ch/*
+!cache/tutorials.crabston.ch/.*
+logs/www.crabston.ch/*
+!logs/www.crabston.ch/.*
+logs/tutorials.crabston.ch/*
+!logs/tutorials.crabston.ch/.*
+images/www.crabston.ch/*
+!images/www.crabston.ch/.*
+images/tutorials.crabston.ch/*
+!images/tutorials.crabston.ch/.*
+
 # OS Generated
 .DS_Store*
 ehthumbs.db
