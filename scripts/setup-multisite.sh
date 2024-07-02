@@ -25,11 +25,11 @@ if [ -d "$grav_root/user/env/$environment" ]; then
 fi
 
 # Clone Git repository
-git clone $cloneURL user/env/$environment
+git clone $cloneURL $grav_root/user/env/$environment
 
 # TODO: get paths from config/streams.yaml
 # Create necessary directories
-mkdir backup/$environment
-mkdir cache/$environment
-mkdir images/$environment
-mkdir logs/$environment
+mkdir $grav_root/backup/$environment
+mkdir $grav_root/cache/$environment
+mkdir $grav_root/images/$environment
+mkdir $grav_root/logs/$environment
