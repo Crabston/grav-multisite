@@ -19,7 +19,6 @@ logs/*
 !logs/.*
 images/*
 !images/.*
-user
 
 # Environments & Secrets
 .env
@@ -27,6 +26,7 @@ user
 .grav.env
 doppler.yaml
 
+# TODO: remove when script added
 # Multisite Specific
 !cache/www.crabston.ch
 cache/www.crabston.ch/*
